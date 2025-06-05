@@ -1,0 +1,123 @@
+.dark-theme {
+    transition: all 0.3s ease;
+}
+
+.dark-theme header {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.dark-theme .header__conteiner-up .item a,
+.dark-theme .header__conteiner-up .locate a,
+.dark-theme .phonenumber a,
+.dark-theme .log,
+.dark-theme .mobile-menu a {
+    color: #e0e0e0;
+}
+.dark-theme .cart-dropdown{
+    background-color: #1b1b1b;
+    color: #e0e0e0;
+}
+.dark-theme .cart-item{
+    color: #e0e0e0;
+}
+.dark-theme .checkout-btn{
+    background-color: rgb(6, 37, 0);
+}
+.dark-theme .header__conteiner-up .item a:hover,
+.dark-theme .header__conteiner-up .locate a:hover,
+.dark-theme .phonenumber a:hover,
+.dark-theme .log:hover,
+.dark-theme .mobile-menu a:hover {
+    color: #ffffff;
+}
+
+.dark-theme .header__conteiner-up .item a::after {
+    background: #ffffff;
+}
+
+.dark-theme .logo a {
+    color: #ffffff !important;
+}
+
+.dark-theme main {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    background-image:none;
+}
+
+.dark-theme .conteiner-snik,
+.dark-theme .conteiner-cloth {
+    background-color: #1e1e1e;
+}
+
+.dark-theme .carousel-item,
+.dark-theme .carousel-item-short,
+.dark-theme .carousel-item-t-short {
+    background-color: #2d2d2d;
+    border-color: #444;
+}
+
+.dark-theme .pay-title {
+    background-color: #333;
+    border-color: #444;
+}
+
+.dark-theme .pay {
+    color: #ffffff;
+}
+
+.dark-theme .pay:hover {
+    color: #ff6b6b;
+}
+
+.dark-theme footer {
+    background-color: #121212;
+}
+
+.dark-theme .footer-section h3 {
+    color: #ffffff;
+}
+
+.dark-theme .footer-section h3::after {
+    background-color: #ffeb3b;
+}
+
+.dark-theme .footer-section a,
+.dark-theme .footer-section p, 
+.dark-theme .footer-section address {
+    color: #aaa;
+}
+
+.dark-theme .footer-section a:hover {
+    color: #ffeb3b;
+}
+#theme-btn {
+    border: 1px solid #333;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    background: #f0f0f0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    transition: all 0.3s ease;
+}
+
+#toggle-icon {
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.dark-theme .mobile-menu {
+    background-color: #333;
+}
+.dark-theme #theme-btn {
+    background: #333;
+    border-color: #666;
+    justify-content: flex-end;
+}
+
+.dark-theme #toggle-icon {
+    color: #ffeb3b;
+}

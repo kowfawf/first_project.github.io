@@ -1,0 +1,142 @@
+.mobile-menu {
+    display: none;
+    width: 100%;
+    background-color: rgb(252, 243, 231);
+    padding: 10px 0;
+}
+
+.mobile-menu.active {
+    display: block;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-menu li {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.mobile-menu a {
+    color: black;
+    font-size: 16px;
+    display: block;
+    padding: 10px 0;
+}
+
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+@media (max-width: 1024px) {
+    .header__conteiner-up .item a,
+    .locate a,
+    .log {
+        font-size: 90%;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__conteiner-up,
+    .header__conteiner-down {
+        display: none;
+    }
+    .mobile-menu-btn {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 1000;
+    }
+    header {
+        height: auto;
+        padding: 10px 0;
+        position: relative;
+        box-shadow: 0 0 10px 2px rgba(255, 234, 116, 0.8);
+    }
+    
+    .logo {
+        width: 100%;
+        justify-content: center;
+        font-size: 28px;
+        padding: 10px 0;
+    }
+    
+    .logo .icon {
+        font-size: 24px;
+    }
+    .mobile-menu.active {
+        display: block;
+    }
+    .mobile-menu {
+        display: none;
+    }
+    
+    .mobile-menu.active {
+        display: block;
+    }
+}
+@media (max-width: 900px) {
+    .content{
+        border: none;
+        width: 50%;
+    }
+    .checkout-form{
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 700px;
+        border: none;
+    }
+}
+@media (max-width: 768px) {
+    .content{
+        border: none;
+        width: 50%;
+    }   
+        .checkout-form{
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 500px;
+        border: none;
+    }
+    .submit-btn{
+        transform: scale(0.8);
+    }
+}
+@media (max-width: 480px) {
+    .content{
+        border: none;
+        width: 50%;
+    }   
+        .checkout-form{
+        padding-right: 20px;
+        padding-left: 20px;
+        width: 300px;
+        font-size: 12px;
+        border: none;
+    }
+    .subtitle{
+        grid-template-columns: 1fr;
+        grid-template-columns: auto;
+        top: 10px;
+        position: relative;
+    }
+    .submit-btn{
+        transform: scale(0.8);
+    }
+    .checkoutForm{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+@media (max-width: 380px){
+}
